@@ -1,0 +1,791 @@
+Agglo;Habitants;Dpt;Zone;Cambriolage;VolVoiture
+Abbeville;24155;80;Police;5.8;1.57
+Abbeville;120364;80;Gendarmerie;4.41;0.89
+Agde;24567;34;Police;18.6;4.4
+Agen;54890;47;Police;7.05;1.22
+Agen;63906;47;Gendarmerie;5.1;0.47
+Aix en Provence;141438;13;Police;14.93;3.54
+Aix en Provence;112328;13;Gendarmerie;9.92;2.68
+Aix les Bains;27750;73;Police;9.66;2.34
+Ajaccio;65542;2A;Police;1.91;1.14
+Ajaccio;32245;2A;Gendarmerie;3.1;1.21
+Albertville;18876;73;Police;4.98;2.33
+Albertville;92018;73;Gendarmerie;3.67;0.88
+Albi;62362;81;Police;7.91;0.72
+Albi;51611;81;Gendarmerie;3.6;0.31
+Alencon;37811;61;Police;4.15;1.19
+Alencon Argentan;74062;61;Gendarmerie;3.52;0.54
+Ales;47896;30;Police;9.44;3.17
+Ales;123630;30;Gendarmerie;6.38;1.55
+Alfortville;44201;94;Police;4.3;1.58
+Altkirch;68591;68;Gendarmerie;2.74;0.67
+Ambert;27157;63;Gendarmerie;2.76;0.55
+Amboise;106143;37;Gendarmerie;5.12;0.88
+Amiens;164977;80;Police;6.18;2.79
+Amiens;95909;80;Gendarmerie;4.21;1.3
+Ancenis;84947;44;Gendarmerie;5.17;0.85
+Andelys ;86228;27;Gendarmerie;5.17;2.24
+Angers;192992;49;Police;5.04;1.33
+Angers;171707;49;Gendarmerie;4.44;0.69
+Angouleme;89620;16;Police;4.79;1.24
+Angouleme;94275;16;Gendarmerie;3.18;0.4
+Aniche;24022;59;Police;4.08;0.62
+Annecy;67606;74;Police;6.26;1.61
+Annecy;193699;74;Gendarmerie;5.23;1.23
+Annemasse;65864;74;Police;8.75;2.11
+Antibes;102372;6;Police;9.11;2.36
+Antony;81778;92;Police;4.95;1.21
+Arbresle (L );143158;69;Gendarmerie;5.73;1.29
+Arcachon;35566;33;Police;4.47;1.12
+Arcachon;100672;33;Gendarmerie;5.38;1.03
+Argeles Gazost;21532;65;Gendarmerie;3.53;0.42
+Argentan;14369;61;Police;5.29;0.9
+Argenteuil;152253;95;Police;4.6;2.79
+Argenteuil;69864;95;Gendarmerie;7.07;6.01
+Arles;52661;13;Police;9.13;2.62
+Arles;86884;13;Gendarmerie;8.76;3.8
+Armentieres;48832;59;Police;5.49;1.35
+Arpajon;71300;91;Police;8.37;3.84
+Arras;78936;62;Police;3.97;1.71
+Arras;121077;62;Gendarmerie;3.44;0.97
+Asnieres sur Seine;111611;92;Police;4.03;1.7
+Athis Mons;37504;91;Police;7.12;3.41
+Aubagne;52759;13;Police;12.64;4.28
+Aubagne;80669;13;Gendarmerie;6.74;1.72
+Aubenas;21589;7;Police;6.53;1.9
+Aubervilliers;76087;93;Police;6.93;2.93
+Aubusson;41668;23;Gendarmerie;2.83;0.38
+Auch;21576;32;Police;8.34;1.11
+Auch;65066;32;Gendarmerie;3.53;0.94
+Auchel;29209;62;Police;4.07;0.31
+Aulnay sous Bois;131952;93;Police;7.96;4.34
+Aulnoye Aymeries;19145;59;Police;3.08;0.63
+Aurillac;33977;15;Police;2.47;0.38
+Aurillac;48702;15;Gendarmerie;2.11;0.35
+Autun;50017;71;Gendarmerie;4.54;0.72
+Auxerre;39647;89;Police;5.9;2.52
+Auxerre;111282;89;Gendarmerie;5.71;1.71
+Avallon;44395;89;Gendarmerie;5.97;1.89
+Avesnes sur Helpe;121750;59;Gendarmerie;3.93;1.06
+Avignon;110307;84;Police;12;4.41
+Avignon;110307;30;Police;12;4.41
+Avignon;111658;84;Gendarmerie;7.01;2.91
+Avion;40988;62;Police;5.1;1.46
+Avranches;110196;50;Gendarmerie;2.28;0.31
+Bagneres de Bigorre;46562;65;Gendarmerie;2.56;0.62
+Bagneux;38080;92;Police;3.1;2.13
+Bagnols sur Ceze;18245;30;Police;5.26;1.7
+Bagnols sur Ceze;97916;30;Gendarmerie;10.07;1.95
+Bailleul;14480;59;Police;2.83;1.17
+Bar le Duc;20510;55;Police;3.56;1.17
+Bar sur Aube;49533;10;Gendarmerie;7.53;1.7
+Barcelonnette;10942;4;Gendarmerie;4.39;0.82
+Basse Terre;11915;971;Police;5.54;1.17
+Bastia;58785;2B;Police;4.18;2.01
+Bastia;45285;2B;Gendarmerie;4.86;1.74
+Bayeux;94335;14;Gendarmerie;2.63;0.86
+Bayonne;90614;64;Police;5.4;1.1
+Bayonne;81527;64;Gendarmerie;1.74;0.42
+Beaucaire;29243;30;Police;10.26;4.79
+Beaucaire;29243;13;Police;10.26;4.79
+Beaune;22394;21;Police;5.89;1.29
+Beaune;73778;21;Gendarmerie;5.64;1.1
+Beauvais;54711;60;Police;4.04;2.83
+Beauvais;84787;60;Gendarmerie;5.99;2.15
+Belfort;74569;90;Police;4.59;0.97
+Belfort;68342;90;Gendarmerie;3.35;0.61
+Bellac;43760;87;Gendarmerie;4.16;0.27
+Belley;97620;1;Gendarmerie;4.66;1.7
+Berck;19424;62;Police;4.02;0.82
+Bergerac;31788;24;Police;3.78;1.38
+Bergerac;78711;24;Gendarmerie;4.57;0.5
+Bernay;63083;27;Gendarmerie;5.48;0.97
+Besancon;116914;25;Police;6.93;2.02
+Besancon;127442;25;Gendarmerie;5.22;0.92
+Bethune;93731;62;Police;4.08;0.97
+Bethune;77732;62;Gendarmerie;2.12;0.41
+Beziers;80253;34;Police;9.33;2.4
+Beziers;115453;34;Gendarmerie;5.43;1.49
+Bezons;27987;95;Police;7.43;4.75
+Biarritz;31512;64;Police;8;1.9
+Blanc ;51441;36;Gendarmerie;4.47;0.54
+Blaye;61929;33;Gendarmerie;7.15;1.78
+Blois;54034;41;Police;7.33;3.78
+Blois;80919;41;Gendarmerie;4.7;2.21
+Bobigny;87225;93;Police;8.58;4.2
+Boissy Saint Leger;87440;94;Police;5.12;1.93
+Bolbec Lillebonne;33780;76;Police;3.82;1.18
+Bondy;75276;93;Police;6.85;3.51
+Bonneville;120757;74;Gendarmerie;6.81;1.19
+Bordeaux;622315;33;Police;5.14;1.85
+Bordeaux;126409;33;Gendarmerie;4.83;1.72
+Bordeaux Bastide;124195;33;Gendarmerie;6.18;1.3
+Boulay Moselle;86709;57;Gendarmerie;3.32;0.45
+Boulogne Billancourt;114205;92;Police;3.63;1.65
+Boulogne sur Mer;93650;62;Police;8.87;1.69
+Bourboule ;24500;63;Gendarmerie;3.02;0.49
+Bourg en Bresse;57553;1;Police;6.53;0.97
+Bourg en Bresse;147165;1;Gendarmerie;5.01;1.08
+Bourges;88383;18;Police;6.03;1.02
+Bourges;64947;18;Gendarmerie;5.79;0.85
+Bourgoin Jallieu;26173;38;Police;10.12;4.05
+Bourgoin Jallieu;133349;38;Gendarmerie;6.52;2.59
+Bressuire;82227;79;Gendarmerie;3.5;0.58
+Brest;141303;29;Police;4.75;1.45
+Brest;147180;29;Gendarmerie;2.58;0.6
+Briancon;11627;5;Police;3.44;1.46
+Briancon;35463;5;Gendarmerie;2.2;1.16
+Briey;24635;54;Police;3.09;0.85
+Briey;59641;54;Gendarmerie;3.97;0.92
+Brignoles;120102;83;Gendarmerie;6.37;2.25
+Brioude;42646;43;Gendarmerie;2.42;0.54
+Brive la Gaillarde;48949;19;Police;3.49;0.96
+Brive la Gaillarde;113269;19;Gendarmerie;2.83;0.42
+Bron;92558;69;Gendarmerie;6.84;2.84
+Bruay la Buissiere;46163;62;Police;3.25;0.71
+Brunoy;54261;91;Police;5.31;3
+Caen;193957;14;Police;4.92;1.54
+Caen;103240;14;Gendarmerie;2.09;0.56
+Cagnes sur Mer;77104;6;Police;8.18;1.71
+Cahors;26245;46;Police;6.78;1.33
+Cahors;50564;46;Gendarmerie;4.63;0.89
+Calais;95875;62;Police;3.53;0.94
+Calais;90709;62;Gendarmerie;2.99;0.62
+Calvi;20876;2B;Gendarmerie;5.03;1.58
+Cambrai;48207;59;Police;5.73;0.91
+Cambrai;113002;59;Gendarmerie;3.06;0.58
+Cannes;115554;6;Police;7.84;2.02
+Cannes;101904;6;Gendarmerie;6.7;1.25
+Capesterre Belle Eau;19321;971;Police;5.07;0.31
+Carcassonne;47419;11;Police;12.84;4.18
+Carcassonne;96039;11;Gendarmerie;6.68;1.18
+Carmaux;15342;81;Police;3.45;0.72
+Carpentras;40267;84;Police;8.27;2.78
+Carpentras;75872;84;Gendarmerie;4.51;1.61
+Castellane;15955;4;Gendarmerie;4.32;1
+Castelnau le Lez;153434;34;Gendarmerie;5.1;1.75
+Castelnaudary;11753;11;Police;6.21;1.7
+Castelsarrasin;12770;82;Police;9.4;1.8
+Castelsarrasin;64771;82;Gendarmerie;7.47;1.48
+Castres;42314;81;Police;7.96;1.35
+Castres;106278;81;Gendarmerie;4.91;0.72
+Cavaillon;24951;84;Police;10.26;4.37
+Cayenne;55753;973;Police;8;0.86
+Ceret;72483;66;Gendarmerie;6.42;1.77
+Cergy Pontoise;151224;95;Police;7;3.69
+Cergy Pontoise;104105;95;Gendarmerie;5.72;3.52
+Chalon sur Saone;65127;71;Police;6.37;1.49
+Chalon sur Saone;105140;71;Gendarmerie;4.37;0.71
+Chalons en Champagne;60907;51;Police;6.85;1.77
+Chalons en Champagne;47641;51;Gendarmerie;8.14;2.12
+Chambery;81248;73;Police;5.61;2.45
+Chambery;150488;73;Gendarmerie;7.16;1.61
+Chamonix;58171;74;Gendarmerie;5.45;0.98
+Champigny sur Marne;75510;94;Police;5.77;1.95
+Chantilly;90597;60;Gendarmerie;6.25;5.64
+Charenton le Pont;43860;94;Police;4.79;1.41
+Charleville Mezieres;59043;8;Police;3.44;1.47
+Charleville Mezieres;56249;8;Gendarmerie;3.66;0.76
+Charolles;96362;71;Gendarmerie;2.82;0.83
+Chartres;85253;28;Police;7.3;1.98
+Chateau Chinon;37006;58;Gendarmerie;4.38;0.92
+Chateau Gontier;63426;53;Gendarmerie;3.71;0.77
+Chateau Thierry;14480;2;Police;7.8;2.07
+Chateau Thierry;58254;2;Gendarmerie;6.4;3.16
+Chateaubriant;98419;44;Gendarmerie;7.14;1.91
+Chateaudun;69069;28;Gendarmerie;4.14;0.98
+Chateaulin;96777;29;Gendarmerie;4;0.62
+Chateauroux;63153;36;Police;4.75;1.17
+Chatellerault;32459;86;Police;4.9;1.14
+Chatellerault;79827;86;Gendarmerie;3.27;0.48
+Chatenay Malabry   Sceaux;75100;92;Police;4.7;0.88
+Chatou   Le Vesinet;71663;78;Police;4.35;1.19
+Chatre ;61998;36;Gendarmerie;3.35;0.6
+Chaumont;24065;52;Police;5.36;0.42
+Chaumont;42304;52;Gendarmerie;2.86;0.52
+Chelles;78396;77;Police;6.82;5.57
+Chennevieres sur Marne;90535;94;Police;4.89;2.56
+Cherbourg Octeville;82427;50;Police;1.38;0.47
+Cherbourg Octeville;108973;50;Gendarmerie;1.39;0.3
+Chessy;36919;77;Police;7.69;3.85
+Chinon;85876;37;Gendarmerie;4.31;1.01
+Choisy le Roi;62300;94;Police;5.44;3.26
+Cholet;54098;49;Police;3.97;0.79
+Cholet;135955;49;Gendarmerie;2.92;0.66
+Clamart;80273;92;Police;4.16;1.53
+Clermont;94253;60;Gendarmerie;4.91;3.07
+Clermont Ferrand;187309;63;Police;5.7;1.58
+Clermont Ferrand;109100;63;Gendarmerie;3.11;1.37
+Clichy;58916;92;Police;3.99;1.85
+Clichy Montfermeil;55019;93;Police;4.74;3.22
+Cognac;22386;16;Police;4.2;3.08
+Cognac;61720;16;Gendarmerie;4.67;0.7
+Colmar;67615;68;Police;4.53;1.05
+Colmar;131730;68;Gendarmerie;3.43;0.54
+Colombes;85398;92;Police;3.93;1.53
+Commercy;86210;55;Gendarmerie;4.04;1.19
+Compiegne;51300;60;Police;6.16;3.82
+Compiegne;128514;60;Gendarmerie;8.75;4.24
+Concarneau;19048;29;Police;6.98;1
+Conde sur l Escaut;29977;59;Police;5.47;2.13
+Condom;61062;32;Gendarmerie;4.85;0.72
+Conflans en Jarnisy;19876;54;Police;2.82;0.65
+Conflans Sainte Honorine;81108;78;Police;5.71;3.19
+Confolens;83576;16;Gendarmerie;4.25;0.54
+Corbeil Essonnes;43086;91;Police;6.66;4.8
+Corte;16920;2B;Gendarmerie;2.25;0.83
+Cosne Cours sur Loire;60147;58;Gendarmerie;5.57;1.26
+Coulommiers;31360;77;Police;5.71;2.42
+Coulommiers;108416;77;Gendarmerie;6.36;3.87
+Cournon d Auvergne;34990;63;Police;3.63;2
+Coutances;9765;50;Police;1.43;0.51
+Coutances;74331;50;Gendarmerie;1.98;0.47
+Creil;71105;60;Police;3.7;4.87
+Creteil;106498;94;Police;3.12;2.04
+Dax;33074;40;Police;6.17;1
+Dax;177034;40;Gendarmerie;5.55;0.68
+Deauville;36564;14;Gendarmerie;6.62;0.96
+Decazeville;16131;12;Police;4.09;0.87
+Denain Escaudain;77081;59;Police;5.51;1.25
+Deuil la Barre;44219;95;Police;5.79;2.56
+Die;36640;26;Gendarmerie;4.91;1.61
+Dieppe;44110;76;Police;3.54;1
+Dieppe;97907;76;Gendarmerie;1.87;0.53
+Dieppe;97907;80;Gendarmerie;1.87;0.53
+Digne les Bains;16922;4;Police;5.14;1.54
+Digne les Bains;33758;4;Gendarmerie;5.04;1.45
+Dijon;195136;21;Police;5.18;1.27
+Dijon;106868;21;Gendarmerie;3.79;1.06
+Dinan;10819;22;Police;4.16;0.37
+Dinan;103641;22;Gendarmerie;3;0.56
+Dives sur Mer;11924;14;Police;8.72;2.43
+Dole;25685;39;Police;8.99;1.71
+Dole;82622;39;Gendarmerie;5.03;1.22
+Dombasle sur Meurthe;21678;54;Police;3.55;0.51
+Domfront;67816;61;Gendarmerie;2.88;0.55
+Douai;132893;59;Police;3.91;1.57
+Douai;121866;59;Gendarmerie;4.64;1.61
+Draguignan;41922;83;Police;5.37;2.34
+Draguignan;126822;83;Gendarmerie;7.13;2.4
+Drancy;66410;93;Police;6.51;3.28
+Draveil;55822;91;Police;5.52;3.51
+Dreux;45379;28;Police;4.41;2.12
+Dreux;93435;28;Gendarmerie;6.66;2.44
+Dunkerque;155197;59;Police;5.07;1.48
+Dunkerque;75633;59;Gendarmerie;3.28;0.48
+Ecuires;81059;62;Gendarmerie;3.7;0.74
+elancourt;62657;78;Police;7.17;2.25
+Enghien   Montmorency;75963;95;Police;8.77;2.88
+Epernay;79787;51;Gendarmerie;9.36;2.47
+epernay;34170;51;Police;4.48;2.46
+epinal;44215;88;Police;8.19;1
+epinay sur Seine;67110;93;Police;5.59;2.8
+Ermont;102204;95;Police;5.37;2.64
+Etampes;107894;91;Gendarmerie;5.85;2.79
+etampes;29436;91;Police;10.7;2.28
+Evreux;141098;27;Gendarmerie;5.71;1.46
+evreux;54620;27;Police;5.6;2.4
+Evry;118649;91;Gendarmerie;6.6;2.75
+evry;93410;91;Police;5.21;2.58
+Falaise;79553;14;Gendarmerie;2.87;0.38
+Fecamp;22366;76;Police;4.2;0.89
+Fecamp;71341;76;Gendarmerie;2.58;0.64
+Figeac;53656;46;Gendarmerie;3.24;0.54
+Fleche ;120546;72;Gendarmerie;3.86;0.53
+Flers;21769;61;Police;1.79;0.46
+Florac;13293;48;Gendarmerie;2.11;0.45
+Foix;12079;9;Police;4.64;0.99
+Foix;35796;9;Gendarmerie;4.86;0.64
+Fontainebleau;44297;77;Police;6.7;1.11
+Fontainebleau;48112;77;Gendarmerie;5.9;1.75
+Fontenay le Comte;130330;85;Gendarmerie;3.65;0.99
+Fontenay le Fleury;43826;78;Police;4.5;1.78
+Fontenay sous Bois;53145;94;Police;6.25;2.26
+Forbach;43335;57;Police;4.02;0.69
+Forbach;76155;57;Gendarmerie;3.07;0.34
+Forcalquier;60467;4;Gendarmerie;6.35;1.75
+Fort de France;87216;972;Police;6.48;1.58
+Fort de France;61094;972;Gendarmerie;5.91;0.49
+Fougeres;22710;35;Police;3.74;0.66
+Frejus;85442;83;Police;6.4;1.37
+Freyming Merlebach;42376;57;Police;4.37;0.61
+Gagny;39056;93;Police;8.53;3.43
+Gaillac;81018;81;Gendarmerie;5.09;0.75
+Gap;39744;5;Police;5.11;1.21
+Gap;50137;5;Gendarmerie;3.61;0.8
+Garges les Gonesse;40012;95;Police;3.97;3.6
+Gassin Saint Tropez;73922;83;Gendarmerie;11.24;2.91
+Gennevilliers;41364;92;Police;3.72;4.35
+Gerzat;22175;63;Police;5.41;3.43
+Gex;123119;1;Gendarmerie;5.44;1.66
+Ghisonaccia;24227;2B;Gendarmerie;3.96;1.16
+Gien;66012;45;Gendarmerie;5.36;1.68
+Gier;74003;42;Police;7.39;2.45
+Givors;28061;69;Police;6.34;4.13
+Givors;126380;69;Gendarmerie;6.52;1.95
+Gonesse;71603;95;Police;9.39;4.94
+Gourdon;44113;46;Gendarmerie;3.24;0.52
+Granville;21067;50;Police;1.66;0.62
+Grasse;51036;6;Police;5.92;1.8
+Grasse;92145;6;Gendarmerie;5.22;1.1
+Gravelines;23252;59;Police;3.18;0.56
+Grenoble;267512;38;Police;11.55;2.88
+Grenoble;96111;38;Gendarmerie;8.52;1.95
+Guebwiller;11461;68;Police;2.7;1.13
+Gueret;13573;23;Police;3.9;0.81
+Gueret;67788;23;Gendarmerie;2.26;0.53
+Guilherand Granges;22512;7;Police;6.49;1.64
+Guingamp;86657;22;Gendarmerie;3.25;0.66
+Guyancourt;73033;78;Police;4.97;2.04
+Hagondange;44194;57;Police;6.09;1.29
+Haguenau;34280;67;Police;4.29;1.14
+Haguenau;117530;67;Gendarmerie;1.65;0.53
+Havre ;57914;76;Gendarmerie;2.92;0.67
+Hazebrouck;21598;59;Police;1.71;0.42
+Hazebrouck;79143;59;Gendarmerie;3.07;0.47
+Herblay;49626;95;Police;6.61;5.38
+Hericourt;10349;70;Police;4.54;0.58
+Honfleur;13321;14;Police;5.63;1.43
+Houilles;47030;78;Police;4.91;1.47
+Hyeres;64486;83;Police;5.47;1.78
+Hyeres;93723;83;Gendarmerie;4.21;1.57
+Is sur Tille;62033;21;Gendarmerie;2.92;0.58
+Issoire;52257;63;Gendarmerie;1.97;0.96
+Issoudun;54584;36;Gendarmerie;4.43;1.12
+Issy les Moulineaux;64355;92;Police;5.05;0.98
+Istres;73340;13;Police;9.09;2.69
+Istres;56539;13;Gendarmerie;6.49;3.75
+Ivry sur Seine;57732;94;Police;5.28;2.42
+Jeumont;18047;59;Police;1.99;0.66
+Jonzac;57820;17;Gendarmerie;7.06;1.31
+Juvisy sur Orge;94261;91;Police;7.5;3.12
+Kourou Matoury 2 CGD reunies;99439;973;Gendarmerie;13.75;0.66
+L  Ha¯ les Roses;110262;94;Police;5.96;2.94
+La Baule;31470;44;Police;7.44;1.43
+La Celle Saint Cloud;29418;78;Police;5.34;2.72
+La Ciotat;33829;13;Police;10.43;3.07
+La Courneuve;63527;93;Police;7.23;4.28
+La Defense   Courbevoie   Puteaux   Nanterre;221407;92;Police;2.65;1.59
+La Garenne Colombes;27628;92;Police;3.37;1.05
+La Roche sur Yon;52664;85;Police;6.19;1.27
+La Rochelle;103959;17;Police;5.06;2
+La Seyne sur Mer;67832;83;Police;4.79;1.5
+La Trinite;84992;972;Gendarmerie;5.86;0.47
+Lagny sur Marne;75860;77;Police;6.2;3.41
+Landerneau;78857;29;Gendarmerie;2.23;0.52
+Langon;121393;33;Gendarmerie;4.83;0.82
+Langres;45581;52;Gendarmerie;4.26;1.12
+Lannion;20079;22;Police;3.59;0.7
+Lannion;99163;22;Gendarmerie;2.73;0.51
+Laon;29219;2;Police;6.74;1.95
+Laon;106908;2;Gendarmerie;5.62;1.65
+Largentiere;74724;7;Gendarmerie;4.74;0.9
+Laval;69568;53;Police;6.21;0.99
+Laval;83172;53;Gendarmerie;3.64;0.36
+Le Blanc Mesnil;51438;93;Police;8.67;4.84
+Le Creusot;31699;71;Police;4.54;0.54
+Le Havre;228066;76;Police;8.29;2.23
+Le Kremlin Bicetre;146656;94;Police;6.29;3.07
+Le Lamentin;39360;972;Police;3.1;1.55
+Le Mans;161137;72;Police;3.66;1.22
+Le Marin;121511;972;Gendarmerie;8.11;0.83
+Le Moule;53903;971;Gendarmerie;17.05;2.21
+Le Port;38418;974;Police;5.23;1.09
+Le Puy en Velay;34074;43;Police;5.99;1.29
+Le Raincy;41834;93;Police;7.24;3.87
+Le Touquet;4495;62;Police;10.46;1.11
+Leman;54165;74;Police;4.23;1.18
+Lens;303576;62;Police;5.61;1.98
+Les Lilas;99927;93;Police;8.11;2.73
+Les Mureaux;65403;78;Police;6.36;3.46
+Les Sables d Olonne;41574;85;Police;3.66;0.67
+Lesparre Medoc;95862;33;Gendarmerie;4.2;1.38
+Levallois Perret;64253;92;Police;2.83;0.75
+Libourne;149056;33;Gendarmerie;4.92;1.29
+Lille;574448;59;Police;9.17;3.86
+Lille;106580;59;Gendarmerie;4.62;1.09
+Limoges;181994;87;Police;5.04;0.91
+Limoges;88512;87;Gendarmerie;3.62;0.42
+Limoux;48382;11;Gendarmerie;3.8;0.64
+Lisieux;25506;14;Police;4.98;2.78
+Lisieux;50053;14;Gendarmerie;2.78;0.6
+Livry Gargan;52993;93;Police;6.43;4.62
+Loches;84500;37;Gendarmerie;4.76;0.53
+Lodeve;84068;34;Gendarmerie;5.04;1.8
+Longjumeau;39845;91;Police;4.34;3.74
+Longwy;37743;54;Police;9.14;3.13
+Lons le Saunier;22280;39;Police;4.76;1.48
+Lons le Saunier;73826;39;Gendarmerie;4.32;0.74
+Lorient;120753;56;Police;3.98;0.9
+Lorient;185691;56;Gendarmerie;5.46;1.14
+Louhans;54836;71;Gendarmerie;4.58;1.24
+Lourdes;14743;65;Police;8.34;1.09
+Louviers;36898;27;Police;4.58;2.47
+Louviers;88393;27;Gendarmerie;4.06;1.28
+Luce;96946;28;Gendarmerie;6.29;1.97
+Lunel;112806;34;Gendarmerie;6.29;2.81
+Luneville;23142;54;Police;8.04;2.2
+Luneville;59181;54;Gendarmerie;3.33;0.57
+Lure;99393;70;Gendarmerie;4.46;0.76
+Lyon;1055378;69;Police;7.69;2.52
+Lyon;83994;69;Gendarmerie;6.39;1.5
+Macon;42748;71;Police;5.15;1.03
+Macon;70307;71;Gendarmerie;5.56;1.14
+Maisons Alfort;52943;94;Police;6.01;1.95
+Maisons Laffitte;29232;78;Police;5.88;1.23
+Mamers;86132;72;Gendarmerie;3.69;0.63
+Mamoudzou;53022;976;Police;15.79;0.66
+Mamoudzou;133430;976;Gendarmerie;5.62;0.55
+Manosque;22105;4;Police;16.65;3.35
+Mans ;195703;72;Gendarmerie;4.55;0.65
+Mantes la Jolie;114640;78;Police;6.99;3.06
+Mantes la Jolie;95307;78;Gendarmerie;6.42;3.83
+Marignane;50064;13;Police;8.99;5.49
+Marles les Mines;24240;62;Police;3.34;0.29
+Marly le Roi;33431;78;Police;4.19;1.68
+Marmande;82521;47;Gendarmerie;5.36;0.95
+Marseille;892373;13;Police;9.6;4.82
+Martigues;91782;13;Police;12.88;5.12
+Massy;48063;91;Police;5.37;2.66
+Maubeuge;73750;59;Police;5.91;1.61
+Mauleon Licharre;39081;64;Gendarmerie;1.56;0.28
+Mauriac;29831;15;Gendarmerie;1.27;0.17
+Mayenne;90171;53;Gendarmerie;2.89;0.16
+Mazamet;16454;81;Police;16.65;1.15
+Meaux;77323;77;Police;4.57;2.3
+Meaux;89977;77;Gendarmerie;4.66;5.13
+Melun;128166;77;Police;6.1;1.86
+Melun;64264;77;Gendarmerie;5.15;3.08
+Mende;12140;48;Police;3.05;0.25
+Mende;51649;48;Gendarmerie;2.85;0.39
+Menton;54905;6;Police;5.54;1.48
+Menton;30034;6;Gendarmerie;5.13;0.97
+Meru;115918;60;Gendarmerie;5.96;2.47
+Metz;187071;57;Police;6.28;1.66
+Metz;125435;57;Gendarmerie;4.68;0.74
+Meudon;45058;92;Police;5.04;2.04
+Meylan;174061;38;Gendarmerie;7.82;2.11
+Millau;23361;12;Police;4.79;0.9
+Millau;47537;12;Gendarmerie;2.69;0.44
+Mirande;40455;32;Gendarmerie;3.09;0.3
+Mitry Mory;25860;77;Police;7.54;7.35
+Moissy Cramayel;124504;77;Police;7.45;3.05
+Molsheim;119013;67;Gendarmerie;2.25;0.36
+Mont de Marsan;40149;40;Police;3.89;1
+Mont de Marsan;76208;40;Gendarmerie;3.83;0.34
+Montargis;45737;45;Police;7.78;2.58
+Montargis;78530;45;Gendarmerie;8.88;1.8
+Montauban;56271;82;Police;10.31;2.01
+Montauban;107886;82;Gendarmerie;5.1;1.03
+Montbard;64149;21;Gendarmerie;3.74;0.56
+Montbeliard;68752;25;Police;4.87;1.19
+Montbeliard;109448;25;Gendarmerie;3.75;0.64
+Montbrison;181427;42;Gendarmerie;3.7;0.98
+Montceau les Mines;39427;71;Police;5.71;0.99
+Montdidier;73201;80;Gendarmerie;7.25;2.35
+Montelimar;36428;26;Police;10.62;5.46
+Montereau Fault Yonne;34463;77;Police;4.58;1.68
+Montfort sur Meu;111844;35;Gendarmerie;3.21;0.45
+Montgeron;61073;91;Police;8.89;3.59
+Montlucon;57287;3;Police;4.54;0.87
+Montlucon;53950;3;Gendarmerie;1.98;0.3
+Montmorency;88621;95;Gendarmerie;5.86;6.7
+Montmorillon;71790;86;Gendarmerie;2.19;0.49
+Montpellier;281787;34;Police;10.89;3.25
+Montreuil;102770;93;Police;8.7;3.53
+Montrouge;81216;92;Police;4.69;1.34
+Moret sur Loing;33015;77;Police;5.33;1.48
+Morlaix;20180;29;Police;4.36;1.64
+Mortagne au Perche;75815;61;Gendarmerie;5.46;1.16
+Moulins;36472;3;Police;3.1;0.38
+Moulins;53619;3;Gendarmerie;2.98;0.28
+Mulhouse;136971;68;Police;5.92;1.18
+Mulhouse;126879;68;Gendarmerie;5.34;0.75
+Mure ;69176;38;Gendarmerie;5.26;0.84
+Muret;140950;31;Gendarmerie;8;1.7
+Nancy;256956;54;Police;7.27;1.53
+Nancy;109501;54;Gendarmerie;5.33;1.23
+Nantes;416069;44;Police;8.22;2.62
+Nantes;123159;44;Gendarmerie;7.88;1.5
+Narbonne;51039;11;Police;5.84;2.78
+Narbonne;101835;11;Gendarmerie;8.49;2.37
+Nemours;33262;77;Police;5.23;1.83
+Nerac;38663;47;Gendarmerie;5.28;0.65
+Neufchateau;85372;88;Gendarmerie;5.17;1.23
+Neufchatel en Bray;73239;76;Gendarmerie;3.26;1.43
+Neuilly sur Marne;54006;93;Police;6.52;3.3
+Neuilly sur Seine;61754;92;Police;3.87;1.12
+Nevers;36762;58;Police;6.37;1.09
+Nevers;85669;58;Gendarmerie;3.91;0.71
+Nice;348723;6;Police;11.34;2.35
+Nice;80758;6;Gendarmerie;4.67;1.75
+Nimes;101841;30;Gendarmerie;9.16;3.64
+Nimes;142205;30;Police;13.07;5.82
+Niort;63310;79;Police;4.64;1.15
+Niort;146200;79;Gendarmerie;3.25;0.5
+Noeux les Mines;29941;62;Police;3.14;0.67
+Nogent le Rotrou;38851;28;Gendarmerie;4.12;0.88
+Nogent sur Marne;97584;94;Police;5.88;2.27
+Nogent sur Seine;52400;10;Gendarmerie;6.24;1.66
+Noisiel;89567;77;Police;6.9;4.13
+Noisy le Grand;69370;93;Police;4.57;3.08
+Nontron;48300;24;Gendarmerie;3.83;0.46
+Noumea;97579;988;Police;7.67;5.41
+Nouvelle Caledonie;148001;988;Gendarmerie;5.3;2.51
+Nyons;31176;26;Gendarmerie;6;1.6
+Oloron Sainte Marie;54515;64;Gendarmerie;2.37;0.55
+Ondaine;52217;42;Police;5.61;2.03
+Orange;29135;84;Police;5.22;1.72
+Orange;72488;84;Gendarmerie;6.47;1.74
+Orleans;250363;45;Police;6.38;2.36
+Orleans;138562;45;Gendarmerie;4.95;1.41
+Orthez;56902;64;Gendarmerie;3.01;0.58
+Oyonnax;29663;1;Police;3.74;0.84
+Palaiseau;110975;91;Police;6.69;2.01
+Palaiseau;125597;91;Gendarmerie;6.55;4.3
+Pamiers;15372;9;Police;9.11;1.17
+Pamiers;60957;9;Gendarmerie;5.56;0.64
+Pantin;54136;93;Police;6.85;2.09
+Papeete;26017;987;Police;10.57;0.92
+Parentis en Born;57855;40;Gendarmerie;5.81;0.74
+Paris;2243833;75;Police;5.37;1.17
+Parthenay;64465;79;Gendarmerie;4.56;0.74
+Pau;138381;64;Police;4.49;1.2
+Pau;114711;64;Gendarmerie;2.47;0.46
+Perigueux;61874;24;Police;4.77;1.26
+Perigueux;64558;24;Gendarmerie;4.83;0.4
+Peronne;89175;80;Gendarmerie;7;1.78
+Perpignan;117419;66;Police;9.62;3.54
+Perpignan;133705;66;Gendarmerie;4.97;1.82
+Persan;37169;95;Police;6.03;4.68
+Pertuis;99051;84;Gendarmerie;8.28;2.57
+Pezenas Sete;126890;34;Gendarmerie;8.09;3.38
+Pierrelatte;68201;26;Gendarmerie;7.36;2.49
+Pithiviers;76901;45;Gendarmerie;5.5;1.99
+Plaisir;58382;78;Police;2.86;2.24
+PloÔrmel;86555;56;Gendarmerie;5.07;0.68
+Plourin les Morlaix;108448;29;Gendarmerie;3.43;0.75
+Pointe a Pitre;101272;971;Police;9.43;2.93
+Pointe a Pitre;55585;971;Gendarmerie;24;2.31
+Poissy;95630;78;Police;5.91;2.69
+Poitiers;120301;86;Police;4.23;1.01
+Poitiers;122816;86;Gendarmerie;2.91;0.58
+Polynesie francaise;233579;987;Gendarmerie;3.32;0.24
+Pont a Mousson;21572;54;Police;3.85;1.48
+Pont Audemer;83830;27;Gendarmerie;4.86;1
+Pontarlier;21053;25;Police;6.79;0.85
+Pontarlier;84161;25;Gendarmerie;2.69;0.72
+Pontault Combault;95577;77;Police;10.52;3.7
+Pontivy;91963;56;Gendarmerie;6.34;0.9
+Pornic;96642;44;Gendarmerie;7.73;1.87
+Porto Vecchio;21402;2A;Gendarmerie;9.91;2.85
+Prades;42625;66;Gendarmerie;5.63;1.08
+Privas;13516;7;Police;3.55;0.96
+Privas;70713;7;Gendarmerie;3.04;1.17
+Provins;20561;77;Police;4.91;1.56
+Provins;49818;77;Gendarmerie;6.91;2.17
+Puget Theniers;24194;6;Gendarmerie;3.68;0.79
+Puy en Velay ;64754;43;Gendarmerie;2.13;0.46
+Quimper;71414;29;Police;5.49;1.19
+Quimper;130526;29;Gendarmerie;3.5;0.41
+Quimperle;83895;29;Gendarmerie;2.91;0.39
+Rambouillet;40315;78;Police;6.95;1.49
+Rambouillet;113144;78;Gendarmerie;5.84;2.49
+Redon;101905;35;Gendarmerie;4.25;1.08
+Reims;207653;51;Police;5.17;2.32
+Reims;81450;51;Gendarmerie;8.12;2.3
+Remiremont;20068;88;Police;4.43;0.4
+Remiremont;106771;88;Gendarmerie;3.9;0.58
+Rennes;236047;35;Police;4.64;0.92
+Rennes;168565;35;Gendarmerie;4.56;0.84
+Rethel;40023;8;Gendarmerie;3.6;0.97
+Revin;41282;8;Gendarmerie;3.51;0.92
+Reze;223910;44;Gendarmerie;6.42;1.84
+Riberac;53883;24;Gendarmerie;4.55;0.63
+Riom;30691;63;Police;5.12;4.5
+Riom;87268;63;Gendarmerie;3.8;1.12
+Rivesaltes;82311;66;Gendarmerie;7.23;3.21
+Roanne;64145;42;Police;3.71;0.94
+Roanne;93174;42;Gendarmerie;2.29;0.52
+Roche sur Yon ;220349;85;Gendarmerie;3.4;0.86
+Rochefort;32898;17;Police;6.78;2.28
+Rochefort;120321;17;Gendarmerie;2.49;0.82
+Rochelle ;99620;17;Gendarmerie;7.23;2.35
+Rodez;40292;12;Police;4;0.57
+Rodez;99544;12;Gendarmerie;2.11;0.34
+Romans sur Isere;43664;26;Police;7.6;2.79
+Romans sur Isere;114613;26;Gendarmerie;6.84;2.9
+Romorantin Lanthenay;17027;41;Police;4.4;1.12
+Romorantin Lanthenay;95644;41;Gendarmerie;5.63;1.23
+Rosieres pres Troyes;80108;10;Gendarmerie;7.79;1.57
+Rosny sous Bois;41050;93;Police;7.58;3.97
+Roubaix;222288;59;Police;8.32;4.29
+Rouen;426863;76;Police;4.17;2.33
+Rouen;86817;76;Gendarmerie;2.76;0.74
+Royan;30851;17;Police;9.63;1.62
+Rueil Malmaison;79426;92;Police;3.9;1.49
+Sables d Olonne ;189861;85;Gendarmerie;4.62;0.86
+Saint Amand les Eaux;20418;59;Police;4.6;1.47
+Saint Amand Montrond;71150;18;Gendarmerie;5.2;1.08
+Saint Andre;53955;974;Police;3.87;0.65
+Saint Barthelemy;8902;977;Gendarmerie;1.91;1.46
+Saint Benoit;118689;974;Gendarmerie;2.58;0.47
+Saint Brieuc;72424;22;Police;3.92;0.88
+Saint Brieuc;198858;22;Gendarmerie;3.2;0.52
+Saint Claude;218480;39;Gendarmerie;2.29;0.56
+Saint Claude;218480;971;Gendarmerie;2.56;0.28
+Saint Cloud;58304;92;Police;5.4;1.85
+Saint Denis;258832;93;Police;6.07;4.38
+Saint Denis;258832;974;Police;4.6;1.04
+Saint Die des Vosges;28236;88;Police;4.07;0.57
+Saint Die des Vosges;95062;88;Gendarmerie;3.78;0.46
+Saint Dizier;29958;52;Police;8.75;2.07
+Saint Dizier;42131;52;Gendarmerie;4.46;0.93
+Saint Etienne;69896;42;Gendarmerie;4.94;1.36
+Saint etienne;214085;42;Police;6.82;2.18
+Saint Flour;35652;15;Gendarmerie;2.19;0.25
+Saint Gaudens;12957;31;Police;7.33;2.62
+Saint Gaudens;64541;31;Gendarmerie;4.65;0.91
+Saint Germain en Laye;71550;78;Police;4.75;1.23
+Saint Germain en Laye;33125;78;Gendarmerie;7.06;2.6
+Saint Girons;27834;9;Gendarmerie;5.17;0.83
+Saint Jean d Angely;51563;17;Gendarmerie;5.92;1.38
+Saint Jean de Luz;46272;64;Police;5.08;0.56
+Saint Jean de Maurienne;44579;73;Gendarmerie;3.99;0.81
+Saint Julien en Genevois;97336;74;Gendarmerie;7.71;1.49
+Saint Junien / Rochechouart;61925;87;Gendarmerie;2.55;0.21
+Saint Laurent du Maroni;73848;973;Gendarmerie;2.42;0.19
+Saint Lo;23567;50;Police;2.55;1.06
+Saint Lo;68421;50;Gendarmerie;1.61;0.48
+Saint Louis;26791;68;Police;5.45;0.82
+Saint Malo;59314;35;Police;4.55;0.83
+Saint Malo;94839;35;Gendarmerie;3.23;1.08
+Saint Marcellin;114335;38;Gendarmerie;7.01;2.42
+Saint Martin;35692;978;Gendarmerie;10.65;7.51
+Saint Maur des Fosses;74816;94;Police;5.16;2.1
+Saint Nazaire;67031;44;Police;6.31;1.75
+Saint Nazaire;140405;44;Gendarmerie;6.31;1.11
+Saint Omer;48271;62;Police;2.57;0.6
+Saint Omer;113502;62;Gendarmerie;1.63;0.32
+Saint Ouen;47189;93;Police;5.06;2.71
+Saint Paul;171806;974;Gendarmerie;2.68;0.83
+Saint Pierre;131266;974;Police;2.77;0.62
+Saint Pierre;161980;974;Gendarmerie;2.87;0.85
+Saint Pierre et Miquelon;6082;975;Gendarmerie;0.99;0.99
+Saint Pol sur Ternoise;68809;62;Gendarmerie;2.69;0.8
+Saint Quentin;64460;2;Police;5.9;1.91
+Saint Quentin;84434;2;Gendarmerie;4.2;1.41
+Sainte Genevieve des Bois;75186;91;Police;5.63;3.94
+Saintes;26011;17;Police;8.46;2.19
+Saintes;99280;17;Gendarmerie;6.14;1.5
+Salon de Provence;43152;13;Police;9.22;3.13
+Salon de Provence;127828;13;Gendarmerie;8.03;3.23
+Sanary sur Mer;59354;83;Police;6.5;1.58
+Sarcelles;99670;95;Police;7.87;4.67
+Sarlat la Caneda;75035;24;Gendarmerie;3.17;0.28
+Sarrebourg;16951;57;Police;4.6;1.06
+Sarrebourg;77393;57;Gendarmerie;3.08;0.61
+Sarreguemines;21540;57;Police;4.6;0.88
+Sarreguemines;78978;57;Gendarmerie;2.06;0.42
+Sartene;24411;2A;Gendarmerie;2.83;1.02
+Sartrouville;51150;78;Police;4.09;1.19
+Saumur;27283;49;Police;7.15;2.53
+Saumur;108613;49;Gendarmerie;4.72;1.23
+Saverne;93625;67;Gendarmerie;2.09;0.75
+Savigny sur Orge;48978;91;Police;7.62;2.96
+Sedan;23185;8;Police;2.93;1.21
+Sedan;41011;8;Gendarmerie;3.46;0.59
+Segre;94162;49;Gendarmerie;4.25;0.58
+Selestat;19197;67;Police;5;0.42
+Selestat;112174;67;Gendarmerie;3.11;0.44
+Senlis;112410;60;Gendarmerie;6.3;4.55
+Sens;35132;89;Police;5.47;2.73
+Sens;112054;89;Gendarmerie;7.42;2.55
+Sete;65300;34;Police;6.11;2.4
+Sevres;52474;92;Police;4.55;0.53
+Soissons;37681;2;Police;6.16;2.65
+Soissons;65148;2;Gendarmerie;4.82;0.87
+Somain Pecquencourt;44391;59;Police;3.9;1.4
+Soultz Guebwiller;71655;68;Gendarmerie;3.54;0.46
+Stains;61712;93;Police;7.29;5.75
+Strasbourg;385555;67;Police;4.35;0.77
+Strasbourg;146155;67;Gendarmerie;3.11;0.35
+Suresnes;46723;92;Police;3.83;0.98
+Tarbes;70838;65;Police;5.14;1.27
+Tarbes;75783;65;Gendarmerie;3.54;0.37
+Taverny;56641;95;Police;5.23;3.3
+Tergnier   La Fere;22753;2;Police;2.99;1.54
+Thann;81116;68;Gendarmerie;2.68;0.43
+Thiers;56864;63;Gendarmerie;4.75;1.65
+Thionville;112195;57;Police;5.5;1.51
+Thionville;132734;57;Gendarmerie;4.26;0.88
+Thonon les Bains;80490;74;Gendarmerie;4.88;0.88
+Thouars;13068;79;Police;3.6;0.77
+Toul;21962;54;Police;5.96;2.23
+Toul;53978;54;Gendarmerie;4.43;1.41
+Toulon;239189;83;Police;5.69;1.86
+Toulon;35389;83;Gendarmerie;5.88;1.36
+Toulouse;524038;31;Police;11.33;2.41
+Toulouse Mirail;161827;31;Gendarmerie;5.78;1.19
+Toulouse Saint Michel;193983;31;Gendarmerie;7.07;1.12
+Tour du Pin ;121791;38;Gendarmerie;6.45;2
+Tourcoing;188625;59;Police;5.14;3.17
+Tournon sur Rhone;112036;7;Gendarmerie;4.26;1.42
+Tours;226119;37;Police;6.74;1.49
+Tours;87877;37;Gendarmerie;6.67;0.58
+Trappes;29380;78;Police;2.86;2.18
+Trevoux;142221;1;Gendarmerie;5.19;1.83
+Trouville Deauville;16876;14;Police;14.87;1.24
+Troyes;121286;10;Police;7.11;1.2
+Tulle;14923;19;Police;3.28;0.74
+Ussel;10245;19;Police;4.29;0.39
+Ussel;56165;19;Gendarmerie;2.31;0.34
+Valence;91490;26;Police;13.16;4.23
+Valence;62503;26;Gendarmerie;9.97;3.84
+Valenciennes;171689;59;Police;5.65;1.93
+Valenciennes;50456;59;Gendarmerie;4.28;0.95
+Vannes;52515;56;Police;5.22;0.88
+Vannes;184180;56;Gendarmerie;5.36;0.75
+Vanves;57984;92;Police;3.31;1.09
+Vauvert;106366;30;Gendarmerie;8.07;3.67
+Velizy Villacoublay;44181;78;Police;4.8;1.77
+Vendome;23413;41;Police;3.5;0.51
+Vendome;59042;41;Gendarmerie;3.91;0.46
+Verdun;26181;55;Police;6.61;1.3
+Verdun;61022;55;Gendarmerie;3.61;0.69
+Vernon;32393;27;Police;5.22;2.96
+Versailles;125160;78;Police;4;1.17
+Vervins;57171;2;Gendarmerie;6.07;2.31
+Vesoul;26326;70;Police;4.94;0.76
+Vesoul;103480;70;Gendarmerie;4.08;0.86
+Vichy;52755;3;Police;6.24;1.1
+Vichy;88825;3;Gendarmerie;3.08;0.68
+Vienne;34369;38;Police;7.77;3.64
+Vienne;149604;38;Gendarmerie;6.22;3
+Vierzon;26946;18;Police;7.46;3.01
+Vierzon;59831;18;Gendarmerie;5.45;1.07
+Vigan ;35031;30;Gendarmerie;4.74;1.2
+Villefranche de Lauragais;145345;31;Gendarmerie;7.24;1.05
+Villefranche de Rouergue;49940;12;Gendarmerie;3.28;0.5
+Villefranche sur Saone;50700;69;Police;5.94;1.18
+Villefranche sur Saone;144948;69;Gendarmerie;3.76;1.07
+Villeneuve la Garenne;25183;92;Police;3.14;1.95
+Villeneuve Saint Georges;67970;94;Police;10.24;4.09
+Villeneuve sur Lot;30325;47;Police;5.28;0.86
+Villeneuve sur Lot;60818;47;Gendarmerie;4.11;0.53
+Villeparisis;35148;77;Police;6.86;4.64
+Villepinte;70151;93;Police;5.93;3.99
+Villerupt;22342;54;Police;2.82;0.94
+Vincennes;70867;94;Police;3.65;1.24
+Vire;57776;14;Gendarmerie;1.78;0.64
+Vitre;192916;35;Gendarmerie;3.02;0.42
+Vitrolles;63075;13;Police;12.32;6.37
+Vitry le Francois;53699;51;Gendarmerie;7.32;2.35
+Vitry sur Seine;85413;94;Police;5.07;2.55
+Voiron;19893;38;Police;5.73;2.51
+Vouziers;22457;8;Gendarmerie;4.01;0.67
+Wallis et Futuna;13445;986;Gendarmerie;1.26;0
+Wissembourg;68376;67;Gendarmerie;1.13;0.51
+Wittenheim;26973;68;Police;1.48;0.26
+Yssingeaux;82532;43;Gendarmerie;3.85;0.51
+Yvetot;110968;76;Gendarmerie;1.73;0.68

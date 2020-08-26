@@ -1,0 +1,133 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage[margin=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs}
+
+\lstset{
+    breaklines=true,
+    numbers=left,
+    frame=single
+    }
+
+\pagestyle{fancy}
+\fancyhead[L]{NOM(S) et Prénom(s) ---}
+\fancyfoot{}
+
+\begin{document}
+
+\begin{center}
+    {\Huge Tests statistiques}
+\end{center}
+
+% Tout au long de ce TP, pensez à justifier vos réponses !!! N'hésitez pas à rajouter ce que signifie concrètement l'acceptation ou le rejet des hypothèses.
+
+\section{Étapes préliminaires (0,25 x 2 pts)}
+\subsection{Analyse descriptive de la variable Cambriolage}
+Analyse descriptive de la variable \underline{IDF} :
+\begin{description}
+    \item[Effectif : 137.000000]
+    \item[Type :] 
+    \item[Moyenne : 5.817591] 
+    \item[Quartile 1 :] 
+    \item[Médiane] 
+    \item[Quartile 3 :] 
+    \item[Min :] 
+    \item[Max :] 
+\end{description}
+
+Analyse descriptive de la variable \underline{PACA} :
+\begin{description}
+	\item[Effectif : 35.000000]
+	\item[Type :] 
+	\item[Moyenne : 8.300000] 
+	\item[Quartile 1 :] 
+	\item[Médiane] 
+	\item[Quartile 3 :] 
+	\item[Min :] 
+	\item[Max :] 
+\end{description}
+
+\section{Comparaison d'une moyenne à une valeur théorique (1x2 pts)}
+
+\subsection{Le nombre moyen de cambriolages en IDF est-il différent de la moyenne nationale ? (1pts)}
+\begin{itemize}
+	\item[2.1.1] Hypothèses : 
+\begin{description}
+    \item[H0 :]  $\mu_{IDF}=5,40$ 
+    \item[H1 :]$\mu_{IDF} \neq 5,40$ 
+\end{description}
+ \item[2.1.2] La statistique de test est $T=\sqrt{n}* \frac{\mu_{IDF} - 5,40}{S}$  et sa loi sous $H_0$ est une  Student $(n-1)$
+où $S$ est estimateur sans biais de la variance en IDF
+
+\item[2.1.3] On trouve une p-valeur de 0.0035 : au risque de 5\%, on On rejette $H_0$ .
+\end{itemize}
+
+\subsection{Le nombre moyen de cambriolages en IDF est-il supérieur à la moyenne nationale ?(1pts)}
+\begin{itemize}
+	\item[2.2.1] Hypothèses : 
+\begin{description}
+    \item[H0 :] $\mu_{IDF}=5,40$
+    \item[H1 :] $\mu_{IDF} > 5,40$ 
+\end{description}
+ 
+\item[2.2.2] On trouve une p-valeur de 0.00175 : au risque de 5\%, on rejette l'hypothèse H0.
+
+\item[2.2.4]Quelles sont les différences entre ces deux approches 
+\begin{description}
+    \item[Nombre de degrés de liberté : idem]
+    \item[Statisique de test : idem]
+\end{description}
+\end{itemize}
+
+
+
+\section{Comparaison de deux échantillons indépendants (2,5 pts)}
+\subsection{Test d'égalité de variance de Fisher (1pts)} 
+\begin{itemize}
+\item [3.1.1]On a besoin de tester l'égalité des variances parce que la statisque de test change
+
+\item [3.1.2] Hypothèses : 
+\begin{description}
+	\item[H0 :]  $\sigma^2_{IDF}=\sigma^2_{PACA}$ 
+	\item[H1 :] $\sigma^2_{IDF} \neq \sigma^2_{PACA}$
+\end{description}
+Sous H0, la statistique est  $F = \frac{S^2_{IDF}}{S^2_{PACA}}$ elle suit une loi de  Fisher à  $(n_{IDF}-1,n_{PACA}-1)$ degré liberté \\
+
+\end{itemize}
+\vspace{3mm}
+
+
+\subsection{Test d'égalité des moyennes (1,5 pts)}
+
+\begin{itemize}
+	\item [3.2.1]
+Hypothèses : 
+\begin{description}
+    \item[H0 :]
+    \item[H1 :]
+\end{description}
+\item[3.2.2]
+On choisit le test Student \\
+La statistique de test correspondante est  
+$ T = \frac {\bar{x}_{IDF}-\bar{x}_{PACA}}{\sqrt{(S^2_{IDF}/n_{IDF} +S^2_{PACA}/n_{PACA})}} $\\
+Elle suit une loi de  Student sous l'hypothèse H0 à ...dégrée de liberté.\\
+\item[3.2.3]
+On trouve une p-valeur de 5.72643212397114e-06  : au risque de 5\%, on rejette l'hypothèse H0.\\
+
+On trouve une p-valeur de 5.72643212397114e-06 : au risque de 1\%, on rejette l'hypothèse H0.\\
+\end{itemize}
+
+\newpage
+\appendix
+
+\section{Code}
+%\lstinputlisting[language=Matlab]{sourceTP.m}
+
+
+\end{document}

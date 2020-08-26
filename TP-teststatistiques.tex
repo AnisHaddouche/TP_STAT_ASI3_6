@@ -1,0 +1,293 @@
+			\documentclass[11pt,a4paper]{article}
+			\usepackage[utf8]{inputenc} 
+			\usepackage[T1]{fontenc}
+			\usepackage{lmodern}
+			\usepackage[french,english]{babel}
+			\usepackage{amsmath,amssymb,amsfonts}
+			\usepackage[a4paper, margin=1in]{geometry}
+			\usepackage{booktabs} % To thicken table lines
+			\usepackage{url} % To thicken table lines
+			\usepackage[lastexercise]{exercise}
+			%\usepackage[lastexercise, answerdelayed]{exercise}
+			%\usepackage{answers}
+			%\Newassociation{sol}{Solution}{ans}  
+			\usepackage{footnote}
+			\usepackage{textcomp}
+			\makesavenoteenv{tabular}
+			\makesavenoteenv{table}
+			\usepackage{floatflt}
+			\usepackage{rotating}
+			\usepackage[]{listings}
+			\usepackage{color}
+			\usepackage{amsmath}
+			\usepackage{multirow}
+			\definecolor{bleu-fonce}{rgb}{0,0,0.5}
+			%\sectionfont{\color{bleu-fonce}}
+			%\geometry{hmargin=2.5cm,vmargin=2cm}
+			\definecolor{lightgray}{rgb}{.9,.9,.9}
+			\definecolor{darkgray}{rgb}{.4,.4,.4}
+			\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+			\def\prox{{\mathbf{prox}}}
+			
+			\lstset{ %
+				language=Matlab,                % the language of the code
+				backgroundcolor=\color{lightgray},
+				extendedchars=false,
+				basicstyle=\footnotesize\ttfamily,
+				showstringspaces=false,
+				showspaces=false,
+				tabsize=2,
+				breaklines=true,
+				showtabs=false,
+				captionpos=b
+				keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break,ones,endwhile},
+				keywordstyle=\color{blue}\bfseries,
+				ndkeywords={class, export, boolean, throw, implements, import, this},
+				ndkeywordstyle=\color{darkgray}\bfseries,
+				identifierstyle=\color{black},
+				commentstyle=\color{darkgray},
+				upquote = true,
+				columns=fullflexible,
+			}
+			
+			
+			%-----------------------------------------------------------------
+			
+			\def\dbR{{\mathrm{I\hskip-2.2pt R}}}
+			\def\dbN{{\mathrm{I\hskip-2.2pt N}}}
+			\def\esp{{\mathrm{I\hskip-1.5pt E}}}
+			\def\pr{{\mathrm{I\hskip-2.2pt P}}}
+			\def\halam{{\widehat{\lambda}}}
+			\def\hasig{{\widehat{\sigma}}}
+			\def\ha{{\widehat{a}}}
+			\def\hb{{\widehat{b}}}
+			\def\haa{{\widehat{a}}}
+			\def\hab{{\widehat{b}}}
+			\def\he{{\widehat{e}}}
+			\def\haE{{\widehat{E}}}
+			\def\baR{{\overline{R}}}
+			\def\baE{{\overline{E}}}
+			\def\baX{{\overline{X}}}
+			\def\baY{{\overline{Y}}}
+			\def\lamMV{{\widehat{\lambda}_{MV}}}
+			\def\lamef{{\widehat{\lambda}_{e}}}
+			
+			\def\dbC{{\mathrm{I\hskip-4.7pt C}}}
+			\def\0{{\mathrm{0}}}
+			\def\a{{\mathrm{a}}}
+			\def\b{{\mathrm{b}}}
+			\def\c{{\mathrm{c}}}
+			\def\d{{\mathrm{d}}}
+			\def\e{{\mathrm{e}}}
+			\def\f{{\mathrm{f}}}
+			\def\u{{\mathrm{u}}}
+			\def\v{{\mathrm{v}}}
+			\def\w{{\mathrm{w}}}
+			\def\x{{\mathrm{x}}}
+			\def\y{{\mathrm{y}}}
+			\def\z{{\mathrm{z}}}
+			\def\clA{{\mathcal{A}}}
+			\def\clD{{\mathcal{D}}}
+			\def\clH{{\mathcal{H}}}
+			\def\clL{{\mathcal{L}}}
+			\def\clP{{\mathcal{P}}}
+			\def\clO{{\mathcal{O}}}
+			\def\tx{{\widetilde{x}}}
+			
+			\def\Wb{{\overline{W}}}
+			
+			
+			\selectlanguage{english}
+			%-----------------------------------------------------------------
+			\begin{document}
+				
+				
+				
+				
+				\title{\vspace*{-2cm}
+					\large Tests Statistiques 1}
+				\author{L. Noiret, A. Rogozan, M.A Haddouche} 
+				\date{ }
+				
+				\maketitle
+			
+			
+				
+				
+			
+				\section*{Rappels}	
+				L'objectif d'un test statistique est de d\'eterminer si une hypoth\`ese $H_0$ doit \^etre rejet\'ee ou non. \\
+				Un test comporte deux risques :
+				\begin{itemize}
+					\item le risque de premi\`ere esp\`ece $\alpha$ qui consiste \` d\'eclarer que $H_0$ est fausse (c'est \`a dire conclure \`a une diff\'erence) alors qu'en r\'ealit\'e $H_0$ est vraie
+					\item le risque de deuxi\`eme esp\`ece $\beta$ qui consiste \`a ne pas d\'eclarer que H0 est fausse (conclure qu'il n'y a pas de diff\'erence) alors qu'en r\'ealit\'e $H_0$ est fausse.  
+				\end{itemize}
+			Dans la pratique  on construit un test en trois étapes: 
+				\begin{itemize}
+					\item On Formule l'hypoth\`ese que vous voulez tester $H_0$ et l'hypoth\`ese alternative $H_1$. La formulation  unilat\'erale ou bilat\'erale de $H_1$ va d\'eterminer les bornes de la r\'egion de rejet. 
+%					
+					\item On Choisit le type de test \`a impl\'ementer. Il existe souvent plusieurs tests pour r\'epondre \`a la m\^eme question. Le choix du test est notamment guid\'e par ses conditions d'application.\\ Exemple : si vous souhaitez tester que deux \'echantillons ind\'ependants sont issus de la m\^eme population, vous pouvez utiliser un test de Student  ou un test non param\'etrique tel que Mann Whitney. Comment choisir?
+					Vous choississez un test de Student si vos donn\'ees sont gaussiennes ou si la taille de vos 2 \'echantillons est assez grande ($n_1>30$ et $n_2>30$ ), afin que le th\'eor\`eme central limite s'applique. Sinon vous utilisez le test de Mann Whitney.
+%					
+				\item On interprète les sorties du logiciel : on rejette $H_0$, si la p-value est inf\'erieur au risque de 1\`ere esp\`ece (en g\'en\'eral $\alpha=5\%$). 
+					
+				\end{itemize}
+			
+%					\noindent Les tests non param\'etriques ne font aucune hypoth\`eses sur la distribution sous-jacente, mais sont moins puissants que les tests param\'etriques, c'est-\`a-dire qu'ils d\'etectent moins souvent une diff\'erence lorsqu'il y en une. La puissance (1-$\beta$) est la probabilit\'e de d\'eclarer que H0 est fausse \`a tort (conclure qu'il n'y a pas de diff\'erence lorsqu'il y en a une).
+			%	Jusqu'`a pr\'esent, lorsque nous avons d\'ecrit des donn\'ees statistiques (analyses descriptive), nous avons utilis\'e notre intuition pour comparer des indicateurs. La moyenne de telle population semble sup\'erieure \`a telle autre, les donn\'ees semblent corr\'el\'ees... Ces conclusions dépendent beaucoup de la personne qui r\'ealise les analyses. Nous allons donc d\'evolopper une approche plus objective pour comparer des populations \`a l'aide de tests statistiques. 
+			%	Il existe une myriade de tests statistiques diff\'erents (tests de compraison de moyennes, de variance, de distribution...). Certains font des hypoth\`eses sous jacentes sur la distribution des donn\'ees (par exemple, on suppose tests param\'etriques) alors que d'autres n'en font aucunes (tests non param\'etriques). 
+				
+			%	Erreur de premi\`ere esp`ece : rejeter l'hypoth`ese H0 alors que H0 est vraie
+			%	Puissance ($1-\beta$): accepter H0 lorsque H0 est vraie.
+			%	Aujourd'hui, nous allons nous concentr\'er sur les tests param\'etriques.   
+			%	Un des tests les plus utilis\'es en statistique est le test de Student qui permet de c%omparer les moyennes de deux populations.\\
+			%	H0 : les moyennes des deux populations sont \'egales ($\mu_1=\mu_2$)\\
+			%	contre H1  les moyennes sont diff\'erentes ($\mu_1\neq\mu_2$, formulation bilat\'erale), ou l'une des moyennes est sup\'erieure \`a l'autre $\mu_1>\mu_2$ ou $\mu_1<\mu_2$, formulation unilat\'erale).
+				
+				
+				\section*{\Large Application : les cambriolages en France}
+%				Ce TP peut se faire sous Matlab, R ou Python (au choix). Des indications sont fournies pour l'utilisation de Python. \\
+%				\newline
+				On souhaite comparer des donn\'ees statistiques de la d\'elinquance en Ile de France (IDF) avec celles de la r\'egion Provence-Alpes-C\^ote d'Azur (PACA). 
+				Les donn\'ees, publi\'ees par le journal l'Express, fournissent le nombre de vols de voitures ($VolVoiture$) et de cambriolages ($Cambriolage$) dans diff\'erentes circonscriptions. Suivant les indicateurs, les d\'elits sont exprim\'es pour 1000 ou 10000 habitants.\\
+		\section{Etapes pr\'eliminaires}
+			
+					- Charger les donn\'ees
+%					.et faites une analyse descriptive rapide de la variable $Cambriolage$. 
+					\noindent
+				%	{\scriptsize
+						\begin{lstlisting}
+					df=pd.read_csv("DataSecurite3.csv",encoding = "ISO-8859-1", engine='python',delimiter=";")
+						\end{lstlisting}
+				%	}
+%				\begin{enumerate}
+%					\item
+					 - Cr\'eer 2 nouveaux tableaux : l'un contenant les donn\'ees pour les circonscriptions d'Ile de France (IDF, d\'epartements : 75, 77, 78, 91, 92, 93, 94, 95) et l'autre pour celles de la r\'egion Provine Alpe C\^ote d'Azure (PACA, d\'epartements : 04, 05, 06, 13, 83 , 84)
+						\begin{lstlisting}	
+						# Example de selection: IDF = df.loc[(df['Dpt'] == '75' | (df['Dpt'] == '77'))]
+						\end{lstlisting}
+						\begin{enumerate}
+							\item Faites une analyse descriptive de la variable cambriolage en des   IDF et PACA. 
+				\end{enumerate}	
+		\section{Comparaison d'une moyenne \`a une valeur th\'eorique}
+			\begin{enumerate}
+				\item[2.1] On veut savoir si le  nombre moyen de  cambriolages en IDF est diff\'erent 
+				 de la la moyenne nationale
+				
+				\begin{itemize}
+				\item [2.1.1] Formulez les hypothèses $H_0$ et $H_1$.
+				\item [2.1.2] Quelle est la loi de la statistique de test sous $H_0$ ?
+				\item [2.1.3] Effectuez le test et interpr\^etez la p-value au risque 5\%.
+				\begin{lstlisting}
+						Utiliser la fonction scipy.stats.ttest_1samp( ,  )
+				\end{lstlisting}
+%				\item Récupérer la p-value et la statistique du Test
+				\end{itemize}
+			\item[2.2] On veut savoir si le  nombre moyen de  cambriolages en IDF est sup\'erieur \`a la moyenne 
+			nationale
+			\begin{itemize}
+			\item [2.2.1]Formulez les hypothèses $H_0$ et $H_1$.
+		 	\item [2.2.2] Effectuez le test et interpr\^etez la p-value au risque 5\%.
+%			\begin{lstlisting}
+%			# faire le test et enregistrer les resultats dans la variable res_moy2
+%					Utiliser la meme fonction pour le test precedent mais ici la p_value est devise par 2.
+%			\end{lstlisting}
+			 \item  [2.2.3] On veut identifiez les diff\'erences entre les r\'esultats du test bilat\'eral (dans 2.1) et le test unilat\'eral (dans 2.2). Est-ce que la valeur de la statistique  et le nombre de degr\'es de libert\'es $df$ sont diff\'erents? 
+			 	\end{itemize}
+		\end{enumerate}
+%		\subsection{Calcul de puissance}
+%		En utilisant les sorties pr\'ec\'edentes, 
+%		
+%		power.t.test(n = NULL, delta = NULL, sd = 1, sig.level = 0.05,
+%		power = NULL,
+%		type = c("two.sample", "one.sample", "paired"),
+%		alternative = c("two.sided", "one.sided"),
+%		strict = FALSE, tol = .Machine$double.eps^0.25$)
+		\section{Comparaison de deux \'echantillons ind\'ependants}				
+					On s'int\'eresse au nombre de cambriolages moyen par circonscription. En particulier on veut savoir si les moyennes  dans les r\'egions IDF et  PACA sont-elles statistiquement diff\'erentes
+					\begin{itemize}
+%						\item Quel test choisiriez-vous? Donner la statistique de test et sa loi sous H0.
+						\item[3.1] Avant de proc\'eder au test, nous nous intéressons d'abord aux variances des cambriolages en IDF et PACA sont \'egales (leurs égalité).
+						\begin{itemize}	
+						\item[3.1.1] Pourquoi a-t-on besoin de tester l'\'egalit\'e des variances?
+						\item [3.1.2]Rappelez la statistique de ce test, les hypoth\`eses $H_0$ et $H_1$. Ainsi que la loi de la statistique sous $H_0$ et la zone de rejet .
+%						\item[3.1.3] Implémenter le test concluez au risque 5\%
+						\end{itemize}
+					\begin{itemize}
+					\item[3.2] On suppose que les variance sont différentes. Maintenant qu'on a une réponse sur l'égalité des variances, on peut faire le test de comparaison du nombre de cambriolage moyen entre les régions IDF et PACA
+					\end{itemize}
+					\item [3.2.1] Formulez les hypoth\`eses $H_0$ et $H_1$ permettant de r\'epondre \`a cette question.
+		 		 \item [3.2.2] Quel test choisiriez-vous pour la comparaison des moyennes ? Donner la statistique de test et sa loi sous $H_0$.
+						\item [3.2.3]R\'ealisez le test de comparaison de moyennes et concluez lorsque le risque $\alpha$ est de 5\%, 1\%.
+							\begin{lstlisting}
+						Utiliser la fonction stats.ttest_ind( , , )
+							\end{lstlisting}
+					\end{itemize}
+%		\subsection{Comparaison de deux \'echantillons ind\'ependants (formulation unilat\'erale)}			
+%				
+%					 Le nombre de vols de voiture moyen par circonscription en r\'egion PACA est-il sup\'erieur au nombre de vols en r\'egion Ile de France ?
+%					\begin{enumerate}	
+%					\item Comment devez-vous adapter H1 pour r\'epondre \`a cette question?
+%					\item Regarder les options disponibles de la fonction $t.test$ ($help("t.test")$) pour r\'epondre \`a cette question.
+%					\end{enumerate}
+%		\subsection{ Calcul de puissance}
+%		On note M$_{IDF}$ (respectivement M$_{PACA}$) le nombre moyen de cambriolages en IDF (resp. PACA).
+%				\begin{enumerate}	
+%					\item Calculez ces valeurs, ainsi que leur diff\'erence M$_{PACA}$-M$_{IDF}$.
+%					\item On souhaite tester au risque 5\% les hypoth\`eses suivantes :\\ 
+%					H0 M$_{PACA}$-M$_{IDF}$ = 0\\
+%					H1 M$_{PACA}$-M$_{IDF}$ = 1.125.\\
+%					Pour simplifier, on suppose \'egalement que les variances des deux populations sont \'egales et valent 4.5, et que les \'echantillon sont de m\^eme taille (n=70). 
+%					Quelle est la puissance de ce test?
+%				\end{enumerate}
+%		\subsection{Comparaison de deux \'echantillons ind\'ependants (version non param\'etrique)}			
+%		
+%		On souhaite maintenant comparer les cambriolages dans les Hauts-de Seine (D\'epartement 92) avec ceux en Seine St Denis (D\'epartement 93). 
+%					\begin{enumerate}	
+%					\item Cr\'eez 2 nouveaux tableaux : l'un contenant les donn\'ees pour les circonscriptions des Hauts-de Seine $X92$ et l'autre celles de la Seine St Denis $X93$.
+%					\item Quels tests choisiriez-vous pour comparer les deux d\'epartements? Pourquoi?
+%					\item R\'ealisez ce test. Essayer de comprendre l'origine du message d'avertissement (Warning). R\'ecup\'erez la p-value et concluez.
+%				%	\begin{lstlisting}
+%%					res_non_para=wilcox.test(X92$Cambriolage, X93$Cambriolage) 
+%%					\end{lstlisting}
+%					
+%				\end{enumerate}
+				
+			%	\end{enumerate}
+		%		
+		%				\section{Puissance d'un test}
+		%				\subsection{Rappels}
+		%	
+		%						\subsection{Rappels}
+		%	On souhaite comparer deux traitements A et B dans un essai th\'erapeutique sur deux groupes ind\'ependants.
+		%	La r\'eponse au traitement est mesur\'ee sur par une variable quantitative X$_A$ (ou X$_B$), de moyenne $\mu_A$ ($\mu_B$) et de variance \'egales $\sigma_A^2=\sigma_B^2=0.5$.
+		%	H0 $\mu_A=\mu_B$ (ou $\mu_A-\mu_B=0)$\\
+		%	H1 $\mu_A>\mu_B$ (ou $\mu_A-\mu_B>0$)\\ 
+		%	On mesure l'effet moyen de chaque traitement sur une population de 50 personnes, on trouve $\bar{x}_n^A=115$ et $\bar{x}_n^B=117$
+		%	
+		%	Un traitement 
+		%	Quelle
+			
+		%	
+		%	 On note $\bar{X}_n^A$ 
+		%	On souhaite d\'eterminer si le traitement A est sup\'erieur u traitement B.
+		%				On s'int\'eresse au rythme cardiaque.  
+		%				Un traitement pour l'hypertension cardiaque est consid\'ere efficace si il permet de diminuer la pression cardiaque de 2 unit\'e (mmHg).
+		%				Le traitement de r\'erence 
+		
+					
+				
+					
+				\section*{Sources} 
+				M\'ethode Statistiques M\'edecine - Biologie -Jean Bouyer, ESTEM \'editions Inserm\\
+				\newline
+				L'Express - S\'ecurit\'e 2013 - Classements des communes de France\\
+				\scriptsize{
+		 \url{https://lexpress.opendatasoft.com/explore/dataset/statistiques-securite-france-2013/?flg=fr}\\
+		\url{http://www.lexpress.fr/actualite/societe/insecurite-le-palmares-des-villes-de-france_1300974.html#m2ZPvIj0jcHs7c1g.99}}
+		
+				\end{document}
+				%%% Local Variables:
+				%%% mode: latex
+				%%% TeX-master: t
+				%%% End:

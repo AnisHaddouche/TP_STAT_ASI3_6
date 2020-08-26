@@ -1,0 +1,130 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage[margin=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs}
+
+\lstset{
+    breaklines=true,
+    numbers=left,
+    frame=single
+    }
+
+\pagestyle{fancy}
+\fancyhead[L]{NOM(S) et Prénom(s) ---}
+\fancyfoot{}
+
+\begin{document}
+
+\begin{center}
+    {\Huge Tests statistiques}
+\end{center}
+
+% Tout au long de ce TP, pensez à justifier vos réponses !!! N'hésitez pas à rajouter ce que signifie concrètement l'acceptation ou le rejet des hypothèses.
+
+\section{Étapes préliminaires}
+\subsection{Analyse descriptive de la variable cambriolage}
+Région \underline{IDF} :
+\begin{description}
+    \item[Effectif :]
+    \item[Type :] 
+    \item[Moyenne :] 
+    \item[Quartile 1 :] 
+    \item[Médiane] 
+    \item[Quartile 3 :] 
+    \item[Min :] 
+    \item[Max :] 
+\end{description}
+
+Région \underline{PACA} :
+\begin{description}
+	\item[Effectif :]
+	\item[Type :] 
+	\item[Moyenne :] 
+	\item[Quartile 1 :] 
+	\item[Médiane] 
+	\item[Quartile 3 :] 
+	\item[Min :] 
+	\item[Max :] 
+\end{description}
+
+\section{Comparaison d'une moyenne à une valeur théorique}
+
+\subsection{Le nombre moyen de cambriolages en IDF est-il différent de la moyenne nationale ?}
+\begin{itemize}
+	\item[2.1.1] Hypothèses : 
+\begin{description}
+    \item[H0 :]
+    \item[H1 :]
+\end{description}
+ \item[2.1.2] La statistique de test est .... et sa loi est ...
+
+\item[2.1.3] On trouve une p-valeur de ... : au risque de 5\%, on ... l'hypothèse H0.
+\end{itemize}
+
+\subsection{Le nombre moyen de cambriolages en IDF est-il supérieur à la moyenne nationale ?}
+\begin{itemize}
+	\item[2.2.1] Hypothèses : 
+\begin{description}
+    \item[H0 :]
+    \item[H1 :]
+\end{description}
+
+\item[2.2.2] On trouve une p-valeur de ... : au risque de 5\%, on ... l'hypothèse H0.
+
+\item[2.2.4]Quelles sont les différences entre ces deux approches 
+\begin{description}
+    \item[Nombre de degrés de liberté :]
+    \item[Rapport entre les p-valeurs :]
+\end{description}
+\end{itemize}
+
+
+
+\section{Comparaison de deux échantillons indépendants}
+\subsection{Test d'égalité de variance de Fisher} 
+\begin{itemize}
+\item [3.1.1]On a besoin de tester l'égalité des variances parce que ... .
+
+\item [3.1.2] Hypothèses : 
+\begin{description}
+	\item[H0 :]
+	\item[H1 :]
+\end{description}
+Sous H0, la statistique suit une loi de ...à ... degré de liberté\\
+La zone de rejet est....\\
+\end{itemize}
+\vspace{3mm}
+
+
+\subsection{Test d'égalité des moyennes }
+
+\begin{itemize}
+	\item [3.2.1]
+Hypothèses : 
+\begin{description}
+    \item[H0 :]
+    \item[H1 :]
+\end{description}
+\item[3.2.2]
+On choisit le test ... .\\
+La statistique de test correspondante est ... .\\
+Elle suit une loi de ... sous l'hypothèse H0 à ...dégrée de liberté.\\
+\item[3.2.3]
+On trouve une p-valeur de ... : au risque de 5\%, on ... l'hypothèse H0.\\
+On trouve une p-valeur de ... : au risque de 1\%, on ... l'hypothèse H0.\\
+\end{itemize}
+
+\newpage
+\appendix
+
+\section{Code}
+%\lstinputlisting[language=Matlab]{sourceTP.m}
+
+
+\end{document}
